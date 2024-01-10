@@ -1,0 +1,32 @@
+.headerContainer {
+    position: relative;
+    height: 87vh;
+    overflow: hidden; /* Prevent content overflow */
+    background-color: #013ecc;
+  }
+.headerImage{
+    height: 100vh;
+    background-image: url(./header.png);  
+    /* background-size: cover; Ensure the image covers the entire header without repeating */
+    background-position: right;
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    position: relative;
+}.main-info {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    top: 0;
+    left: 40px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color:white;
+    /* z-index: 1; */
+  }
+  
+  .h4{
+    font-weight: 400;
+  }
