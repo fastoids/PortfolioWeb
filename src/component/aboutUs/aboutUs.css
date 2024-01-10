@@ -1,0 +1,24 @@
+.about-wrapper {
+    z-index: 3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  #about{
+    height: 100vh;
+  }
+  .AboutUsHeading{
+    color:darkgray;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .about-heading {
+    color: #5472D3;
+  }
+  .about-text {
+    color: #424242;
+    
+  text-align: justify;
+  }

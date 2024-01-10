@@ -1,0 +1,21 @@
+Primary Blue (Background):
+
+Hex: #0D47A1
+Secondary Blue (Headers/Hover Effects):
+
+Hex: #5472D3
+Accent Orange (Call-to-Action Buttons/Navigation Items):
+
+Hex: #FFA726
+Accent Yellow (Highlights/Icons):
+
+Hex: #FFEB3B
+Neutral Dark Blue (Text):
+
+Hex: #0B3954
+Neutral White (Text areas/Content Backgrounds):
+
+Hex: #FFFFFF
+
+dark grey 
+#424242
