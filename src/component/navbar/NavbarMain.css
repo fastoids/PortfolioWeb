@@ -1,6 +1,11 @@
 .nav-link{
     color:white;
 }
-.Navbar{
-    border:1px solid black;
+.navbar-nav li a.active,
+.navbar-nav li a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav li a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
 }
