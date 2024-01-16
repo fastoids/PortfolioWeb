@@ -1,0 +1,174 @@
+.contact-section {
+  padding: 7em 0;
+}
+
+.wrapper {
+  width: 100%;
+  -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+}
+
+.contact-wrap {
+  background: #0D47A1;
+  background: -moz-linear-gradient(-45deg, #0D47A1 0%, #0B3954 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #0D47A1), color-stop(100%, #0B3954));
+  background: -webkit-linear-gradient(-45deg, #0D47A1 0%, #0B3954 100%);
+  background: -o-linear-gradient(-45deg, #0D47A1 0%, #0B3954 100%);
+  background: -ms-linear-gradient(-45deg, #0D47A1 0%, #0B3954 100%);
+  background: linear-gradient(135deg, #0D47A1 0%, #0B3954 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0D47A1', endColorstr='#0B3954', GradientType=1);
+}
+
+.contact-wrap h3 {
+  color: #fff;
+}
+
+h3 {
+  color: white;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.form-control {
+  height: 62px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  border-radius: 0px;
+  box-shadow: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control:focus,
+.form-control:active {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+textarea.form-control {
+  height: inherit !important;
+  margin-top: 5px;
+}
+
+.contactForm .form-control {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+
+.btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background: #FFA726 !important;
+  border-color: #0D47A1 !important;
+  color: #fff;
+}
+.info-wrap{
+  text-align: left;
+}
+.info-wrap h3 {
+  color: #000;
+  text-align:left;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.info-wrap h3:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: #FFA726;
+  content: "";
+}
+
+.info-wrap .dbox {
+  width: 100%;
+  color: #0D47A1;
+  margin-bottom: 25px;
+}
+
+.info-wrap .dbox:last-child {
+  margin-bottom: 0;
+}
+
+.info-wrap .dbox p {
+  margin-bottom: 0;
+}
+
+.info-wrap .dbox p span {
+  font-weight: 400;
+  color: #000;
+}
+
+.info-wrap .dbox p a {
+  color: #0D47A1;
+}
+
+.info-wrap .dbox .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.info-wrap .dbox .icon span {
+  font-size: 20px;
+  color: #000;
+}
+
+.info-wrap .dbox .text {
+  width: calc(100% - 50px);
+}
+
+
+a {
+  transition: 0.3s all ease;
+  color: #FFA726;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+#contactForm .form-control {
+  font-size: 16px;
+}

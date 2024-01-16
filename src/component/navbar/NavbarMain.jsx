@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from './../../logo.png'
 import './NavbarMain.css';
 function NavbarMain() {
-  
   return (
     <Navbar sticky="top" expand="lg" className="w-100" style={{backgroundColor: "#013ecc",border:"1px solid black"}}>
 

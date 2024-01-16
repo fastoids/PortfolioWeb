@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutUs.css'; // Assume we have some CSS to make it look like the screenshot
+import './aboutUs.css'; 
 import {ReactComponent as AboutIcon} from './../../aboutUs.svg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
